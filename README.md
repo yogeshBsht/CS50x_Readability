@@ -1,6 +1,6 @@
 # CS50x_Readability
 A program that computes the approximate grade level needed to comprehend some text.
-The program is based on on Harvard's CS50's Introduction to Computer Science 2021 OpenCourseWare's problem set-2.
+The program is based on Harvard's CS50's Introduction to Computer Science 2021 OpenCourseWare's problem set-2.
 
 The program computes the Coleman-Liau index which determines the US grade level needed to understand the text.
 The formula is:
