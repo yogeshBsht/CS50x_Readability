@@ -11,17 +11,13 @@ punctuations = ['.', '!', '?']
 
 # Counting letters (a-z, A-Z), words & sentences
 for letter in text:
-    if letter == ' ':               # Checking for whitespace
+    if letter == ' ':
         word_count += 1
-    elif letter.isalpha():          # Checking for alphabet
+    elif letter.isalpha():
         letter_count += 1
-    elif letter in punctuations:    # Checking for punctuations
+    elif letter in punctuations:
         sent_count += 1
-        
-# print("{} letter(s)".format(letter_count))
-# print("{} word(s)".format(word_count)) 
-# print("{} sentence(s)".format(sent_count))        
-
+              
 # Calculating L & S
 L = (letter_count/word_count) * 100 
 S = (sent_count/word_count) * 100
