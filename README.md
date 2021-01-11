@@ -12,6 +12,11 @@ If the index number is 16 or higher, the program outputs "Grade 16+".
 If the index number is less than 1, the program outputs "Before Grade 1".
 In other cases, the Grade corresponding to the index is printed .
 
+For instance,
+
+&nbsp;&nbsp; Enter text: Congratulations! Today is your day. You're off to Great Places! You're off and away!    
+&nbsp;&nbsp; Grade 3
+
 References:
 1. https://www.edx.org/course/cs50s-introduction-to-computer-science
 2. https://cs50.harvard.edu/x/2021/psets/2/readability/
